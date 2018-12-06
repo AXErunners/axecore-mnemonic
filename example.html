@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+  <title>Tester - AxeCore Mnemonic</title>
+  <script language="javascript" src="dist/axecore-mnemonic.js"></script>
+</head>
+<body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var mnemonic = new axecoreMnemonic();
+      console.log("MNEMONIC: " + mnemonic.toString());
+
+      var xpriv1 = mnemonic.toHDPrivateKey(); // no passphrase
+      var xpriv2 = mnemonic.toHDPrivateKey('my passphrase'); // using a passphrase
+
+      console.log("xpriv1: " + xpriv1);
+      console.log("xpriv2: " + xpriv2);
+    });
+  </script>
+</body>
+</html>

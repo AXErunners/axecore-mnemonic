@@ -1,0 +1,51 @@
+{
+  "name": "@axerunners/axecore-mnemonic",
+  "version": "1.6.0",
+  "description": "BIP39 Mnemonics for Axecore",
+  "author": "AXErunners <info@axerunners.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "nyc mocha",
+    "build": "webpack"
+  },
+  "contributors": [
+    {
+      "name": "Yemel Jardi",
+      "email": "angel.jardi@gmail.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axerunners/axecore-mnemonic.git"
+  },
+  "keywords": [
+    "axe",
+    "bitcore",
+    "mnemonic",
+    "crypto",
+    "cryptography",
+    "encryption",
+    "axecore"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@axerunners/axecore-lib": "^0.15.0",
+    "unorm": "^1.4.1"
+  }
+}

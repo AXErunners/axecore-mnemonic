@@ -1,0 +1,14 @@
+*.sw[a-z]
+coverage
+node_modules
+
+# build artifacts directory
+dist/
+
+# ignore generated Istanbul / NYC coverage dir
+.nyc_output/
+
+npm-debug.log
+
+.DS_Store
+.idea

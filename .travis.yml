@@ -1,0 +1,14 @@
+sudo: false
+dist: trusty
+language: node_js
+node_js:
+  - '6'
+  - '8'
+  - '10'
+
+install:
+  - npm install
+
+script:
+  # TODO: - npm run lint
+  - npm run test
