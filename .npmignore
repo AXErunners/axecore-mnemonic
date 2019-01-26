@@ -1,0 +1,11 @@
+# Please ensure this file exists even if empty.
+#
+# Otherwise, npm will use the .gitignore file as such and ignore the dist/ dir
+# which is gitignore'd, meaning the build artifacts won't get bundled with this
+# package.
+#
+# What a terrible design decision.
+
+# Do not bundle generated code coverage output
+coverage
+.nyc_output
