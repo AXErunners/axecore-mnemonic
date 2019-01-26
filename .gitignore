@@ -1,14 +1,15 @@
-*.sw[a-z]
-coverage
+# ignore vendor dir and node-specific files
 node_modules
-
-# build artifacts directory
-dist/
-
-# ignore generated Istanbul / NYC coverage dir
-.nyc_output/
-
 npm-debug.log
 
+# build artifacts directory
+dist
+
+# ignore generated Istanbul / NYC coverage dir
+.nyc_output
+coverage
+
+# ignore common OS- and editor-specific files
 .DS_Store
 .idea
+*.sw[a-z]
