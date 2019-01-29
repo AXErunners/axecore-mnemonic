@@ -25,7 +25,7 @@ describe('Mnemonic', function() {
       it('should fail with invalid data', function() {
         (function() {
           return new Mnemonic({});
-        }).should.throw(errors.InvalidArgument);
+        }).should.throw(errors.NodeError);
       });
 
       it('should fail with unknown word list', function() {
@@ -43,7 +43,7 @@ describe('Mnemonic', function() {
       it('should fail with invalid ENT', function() {
         (function() {
           return new Mnemonic(64);
-        }).should.throw(errors.InvalidArgument);
+        }).should.throw(errors.NodeError);
       });
 
       it('constructor defaults to english worldlist', function() {
