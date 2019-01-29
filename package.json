@@ -1,6 +1,6 @@
 {
   "name": "@axerunners/axecore-mnemonic",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "BIP39 Mnemonics for Axecore",
   "author": "AXErunners <info@axerunners.com>",
   "main": "index.js",
