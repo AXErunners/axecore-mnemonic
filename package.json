@@ -45,7 +45,6 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
-    "@axerunners/axecore-lib": "^0.15.0",
-    "unorm": "^1.4.1"
+    "@axerunners/axecore-lib": "^0.16.8"
   }
 }
