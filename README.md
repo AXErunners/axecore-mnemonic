@@ -1,5 +1,9 @@
 # axecore-mnemonic
 
+## Note: This package has been deprecated
+
+This module is superceded the functionality in @axerunners/axecore-lib, please use that package moving forward.
+
 [![Build Status](https://img.shields.io/travis/axerunners/axecore-mnemonic/master.svg)](https://travis-ci.org/axerunners/axecore-mnemonic)
 [![NPM Package](https://img.shields.io/npm/v/@axerunners/axecore-mnemonic.svg)](https://www.npmjs.org/package/@axerunners/axecore-mnemonic)
 
